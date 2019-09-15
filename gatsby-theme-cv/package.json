@@ -1,6 +1,6 @@
 {
     "name": "@mhjadav/gatsby-theme-cv",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "license": "MIT",
     "repository": {
         "url": "https://github.com/nirlom-team/gatsby-theme-cv",
@@ -38,7 +38,7 @@
     "dependencies": {
         "bootstrap": "^4.3.1",
         "gatsby-image": "^2.2.19",
-        "helmet": "^3.21.0",
-        "react-bootstrap": "^1.0.0-beta.12"
+        "react-bootstrap": "^1.0.0-beta.12",
+        "react-helmet": "^5.2.1"
     }
 }

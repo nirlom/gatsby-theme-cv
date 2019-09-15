@@ -3,7 +3,8 @@
     "version": "1.0.3",
     "license": "MIT",
     "repository": {
-        "url": "https://github.com/nirlom-team/gatsby-theme-cv"
+        "url": "https://github.com/nirlom-team/gatsby-theme-cv",
+        "directory": "gaysby-theme-cv"
     },
     "keywords": ["gatsby", "gatsby theme", "build cv", "cv theme", "resume tempalte"],
     "scripts": {

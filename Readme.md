@@ -6,5 +6,10 @@
 
 `git clone https://github.com/nirlom-team/gatsby-theme-cv.git`
 
-`yanr workspace site develop`
+### Install dependencies
+`yarn workspace site`
 
+### Run Project
+`yarn workspace site develop`
+
+[Go to] (http://localhost:8000/)

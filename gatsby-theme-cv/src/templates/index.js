@@ -17,6 +17,12 @@ export const query = graphql`
                     }
                   }
             }
+            metaInfo {
+              title
+              description
+              favicon
+              website
+            }
             skills {
               maxRating
               name
@@ -56,8 +62,8 @@ export const query = graphql`
     }
 `
 
-const EventTemplate = ({ data: { resume: { profilePic, skills, social, langauges, experience, education, about } } }) => (
-    <Layout>
+const EventTemplate = ({ data: { resume: { profilePic, skills, social, langauges, experience, education, about, metaInfo } } }) => (
+    <Layout metaInfo={metaInfo}>
         <Col xs={12} md={3}>
            <Sidebar profileImage={profilePic} about={about} skills={skills} langauges={langauges} social={social} />
         </Col>

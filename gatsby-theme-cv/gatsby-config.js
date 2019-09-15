@@ -1,5 +1,6 @@
 module.exports = ({ contentPath = 'data', basePath = '/'}) => ({
     plugins: [
+        'gatsby-plugin-react-helmet',
         {
             resolve: 'gatsby-source-filesystem',
             options: {
@@ -12,7 +13,19 @@ module.exports = ({ contentPath = 'data', basePath = '/'}) => ({
                 typeName: 'Resume'
             }
         },
+        {
+            resolve: 'gatsby-plugin-purgecss',
+            options: {
+              whitelist: [
+                'body',
+                'html',
+                'fa',
+              ],
+              whitelistPatterns: [/^fa-/]
+            }
+        },
         'gatsby-transformer-sharp',
         'gatsby-plugin-sharp',
+        'gatsby-plugin-offline'
     ]
 })

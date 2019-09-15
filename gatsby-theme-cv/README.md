@@ -28,8 +28,15 @@ Checkout this link to understand how to use gatsby theme
 
 Sample JSON 
 
-`{
+`
+{
     "profilePic": "images/profile.jpg",
+    "metaInfo": {
+        "title": "Mahipat Jadav Portfolio",
+        "description": "Full stack developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby",
+        "favicon": "",
+        "website": ""
+    },
     "about": {
         "name": "Mahipat Jadav",
         "location": "Ahmedabad, Gujarat",
@@ -157,4 +164,5 @@ Sample JSON
             "description": "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
         }
     ]
-}`
+}
+`

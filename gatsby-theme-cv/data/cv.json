@@ -1,5 +1,11 @@
 {
     "profilePic": "images/profile.jpg",
+    "metaInfo": {
+        "title": "Mahipat Jadav Portfolio",
+        "description": "Full stack developer, I have designed and developed fast and responsive web applications using Javascript, ReactJS, Redux, NodeJs, GraphQl, Bootstrap, Gatsby",
+        "favicon": "",
+        "website": ""
+    },
     "about": {
         "name": "Mahipat Jadav",
         "location": "Ahmedabad, Gujarat",

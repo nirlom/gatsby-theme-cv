@@ -1,0 +1,33 @@
+{
+    "name": "@mhjadav/gatsby-theme-cv",
+    "version": "1.0.3",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/nirlom-team/gatsby-theme-cv"
+    },
+    "keywords": ["gatsby", "gatsby theme", "build cv", "cv theme", "resume tempalte"],
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "clean": "gatsby clean"
+    },
+    "peerDependencies": {
+        "gatsby": "^2.15.14",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0"
+    },
+    "devDependencies": {
+        "gatsby": "^2.15.14",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0"
+    },
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "gatsby-image": "^2.2.19",
+        "gatsby-plugin-sharp": "^2.2.22",
+        "gatsby-source-filesystem": "^2.1.22",
+        "gatsby-transformer-json": "^2.2.8",
+        "gatsby-transformer-sharp": "^2.2.14",
+        "react-bootstrap": "^1.0.0-beta.12"
+    }
+}

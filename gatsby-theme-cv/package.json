@@ -1,6 +1,6 @@
 {
     "name": "@mhjadav/gatsby-theme-cv",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "license": "MIT",
     "repository": {
         "url": "https://github.com/nirlom-team/gatsby-theme-cv",
@@ -26,7 +26,6 @@
     "devDependencies": {
         "gatsby": "^2.15.14",
         "gatsby-plugin-offline": "^3.0.6",
-        "gatsby-plugin-purgecss": "^4.0.1",
         "gatsby-plugin-react-helmet": "^3.1.7",
         "gatsby-plugin-sharp": "^2.2.22",
         "gatsby-source-filesystem": "^2.1.22",

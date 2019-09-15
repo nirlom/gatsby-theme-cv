@@ -6,7 +6,7 @@ const Langauges = ({ langaugesList }) => (
         <Card.Title>
             Langauges
         </Card.Title>
-        {console.log("Langauges", langaugesList)} {langaugesList.map(langauge => (
+        {langaugesList.map(langauge => (
             <Col>
                 <Card.Text>
                     {langauge.name}

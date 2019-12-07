@@ -8,6 +8,15 @@ Checkout this link to understand how to use gatsby theme
 1. Create project directory
 2. `cd directory`
 3. `yarn init -y`
+    #Add below script in package.json file
+    `
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean"
+    }
+`
 4. `yarn add gatsby react react-dom @mhjadav/gatsby-theme-cv`
 5.  add gatsby-config.js and add below code
     `module.exports = {

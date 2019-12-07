@@ -9,7 +9,7 @@ Checkout this link to understand how to use gatsby theme
 2. `cd directory`
 3. `yarn init -y`
 
-    # Add below script in package.json file
+    ### Add below script in package.json file
 
     ```
     "scripts": {
@@ -21,7 +21,8 @@ Checkout this link to understand how to use gatsby theme
     ```
 4. `yarn add gatsby react react-dom @mhjadav/gatsby-theme-cv`
 5.  add gatsby-config.js and add below code
-    ```module.exports = {
+    ```
+    module.exports = {
         plugins: [
             {
                 resolve: '@mhjadav/gatsby-theme-cv',
@@ -31,7 +32,8 @@ Checkout this link to understand how to use gatsby theme
                 }
             }
         ]
-    }```
+    }
+    ```
 6.  Create data/cv.json and data/images/pic.jpg
 7.  Check out sample json below and replace content as you like
 8. `gatsby develop` got to http://localhost:8000/
